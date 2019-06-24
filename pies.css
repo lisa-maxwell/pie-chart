@@ -1,0 +1,41 @@
+* {
+  background-color: #0e0e0e;
+}
+
+.piecontainer {
+    width: 400px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+ }
+
+.top-left {
+    float: left;
+    border-top-left-radius: 100%;
+    background: red;
+}
+
+.top-right {
+    float: right;
+    border-top-right-radius: 100%;
+    background: yellow;
+}
+
+.bottom-left {
+    float: left;
+    border-bottom-left-radius: 100%;
+    background: blue;
+}
+
+.bottom-right {
+    float: right;
+    border-bottom-right-radius: 100%;
+    background: green;
+}
